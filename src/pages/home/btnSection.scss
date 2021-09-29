@@ -1,0 +1,44 @@
+.body{
+  .btn-group{
+    margin-top: 10PX;
+    display: flex;
+    justify-content: space-between;
+    .btn{
+      text-align: center;
+      width: 45%;
+      border-radius: 10px !important;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .save{
+        margin-top: 10PX;
+        background-color: orange;
+        border-radius: 80px;
+        line-height: 80PX;
+        font-size: 50PX;
+        color: #fff;
+        width: 80PX;
+        height: 80PX;
+      }
+      .take{
+        margin-top: 10PX;
+        background-color: cadetblue;
+        border-radius: 80px;
+        line-height: 80PX;
+        font-size: 50PX;
+        color: #fff;
+        width: 80PX;
+        height: 80PX;
+      }
+      .desc{
+        margin: 20PX 0;
+      }
+    }
+    .save-btn{
+      border: 1PX solid orange;
+    }
+    .take-btn{
+      border: 1PX solid cadetblue;
+    }
+  }
+}
