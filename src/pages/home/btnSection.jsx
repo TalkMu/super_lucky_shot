@@ -17,12 +17,12 @@ export default class BtnSection extends Component {
 
   handleSave(){
     Taro.navigateTo({
-      url: '/pages/save/save',
+      url: '/pages/home/save/save',
     })
   }
   handleTake(){
     Taro.navigateTo({
-      url: '/pages/take/take',
+      url: '/pages/home/take/take',
     })
   }
   render () {

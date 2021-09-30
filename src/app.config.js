@@ -2,8 +2,8 @@ export default {
   pages: [
     'pages/home/home',
     'pages/me/me',
-    'pages/save/save',
-    'pages/take/take',
+    'pages/home/save/save',
+    'pages/home/take/take',
   ],
   window: {
     backgroundTextStyle: 'light',
