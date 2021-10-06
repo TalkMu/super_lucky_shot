@@ -1,0 +1,31 @@
+.body{
+  margin: 0 20PX;
+  .form-body{
+    .sex {
+      display: flex;
+      justify-content: space-around;
+      .sex-img {
+        width: 30PX;
+        height: 30PX;
+      }
+    }
+    .input{
+      border: 1PX solid #ccc;
+      border-radius: 8PX;
+      margin: 15PX 0;
+      padding: 10PX;
+      text-align: left;
+    }
+    .age{
+    }
+    .wx{
+    }
+    .constellation{
+    }
+    .base-info{
+      background-color: white;
+      border-radius: 8PX;
+      padding: 20PX;
+    }
+  }
+}

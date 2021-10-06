@@ -1,9 +1,12 @@
 export default {
   pages: [
-    'pages/home/home',
-    'pages/me/me',
     'pages/home/save/save',
+    'pages/me/me',
+    'pages/home/home',
     'pages/home/take/take',
+    'pages/me/login/login',
+    'pages/me/customer/customer',
+    'pages/index/index',
   ],
   window: {
     backgroundTextStyle: 'light',

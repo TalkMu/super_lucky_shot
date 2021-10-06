@@ -1,0 +1,11 @@
+import Taro from "@tarojs/taro";
+
+const host = 'http://192.168.50.10:8080/'
+
+export function wxLogin(params) {
+  return Taro.request({
+    url: host + 'wxAppletLogin',
+    method:"POST",
+    data: params,
+  })
+}

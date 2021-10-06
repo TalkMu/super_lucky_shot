@@ -1,0 +1,64 @@
+page{
+  background-color:#F5F5F5;
+}
+.body{
+  margin: 10PX 20PX;
+  .user-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .avatar{
+      width: 60PX;
+      height: 60PX;
+      border-radius: 60PX;
+    }
+    .info{
+      margin-left: 20PX;
+      .name{
+        font-weight: 600;
+        color:#494949;
+      }
+      .label{
+        margin-top: 5PX;
+        font-size: 12PX;
+        color:#696969;
+        display: flex;
+        .cur-status{
+        }
+        .change-status{
+          margin-left: 10PX;
+          color: dodgerblue;
+        }
+      }
+    }
+    .login {
+      border: 1PX solid red;
+      flex: none;
+      color: #696969;
+      text-align: right;
+    }
+
+  }
+  .menu-section {
+    margin-top: 10PX;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 10PX;
+    .item {
+      margin: 20PX 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .icon {
+        width: 30PX;
+        height: 30PX;
+      }
+      .text {
+        margin-top: 10PX;
+        font-size: 14PX;
+        color:#696969;
+      }
+    }
+  }
+}
