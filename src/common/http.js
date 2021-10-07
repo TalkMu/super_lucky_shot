@@ -9,3 +9,15 @@ export function wxLogin(params) {
     data: params,
   })
 }
+
+
+export function noteSaveOrUpdate(params) {
+  return Taro.request({
+    url: host+'luckyShot/noteInfo/saveOrUpdate',
+    header:{
+      "Authorization":"Bearer " + Taro.getStorageSync('AUTH_TICKET')
+    },
+    method:"POST",
+    data: params,
+  })
+}

@@ -1,8 +1,9 @@
 export default {
   pages: [
+    'pages/home/home',
     'pages/home/save/save',
     'pages/me/me',
-    'pages/home/home',
+
     'pages/home/take/take',
     'pages/me/login/login',
     'pages/me/customer/customer',
@@ -11,6 +12,7 @@ export default {
   window: {
     backgroundTextStyle: 'light',
     navigationBarBackgroundColor: '#fff',
+    backgroundColor:'#F5F5F5',
     navigationBarTitleText: 'WeChat',
     navigationBarTextStyle: 'black'
   },

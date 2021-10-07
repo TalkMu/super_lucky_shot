@@ -1,31 +1,123 @@
 .body{
-  margin: 0 20PX;
-  .form-body{
-    .sex {
-      display: flex;
-      justify-content: space-around;
-      .sex-img {
-        width: 30PX;
-        height: 30PX;
+  .content{
+    margin: 10PX 20PX;
+    .form-body{
+      .sex-group {
+        display: flex;
+        justify-content: space-around;
+        .sex {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          border: 3PX solid #cccccc;
+          border-radius: 10PX;
+          width: 100PX;
+          height: 100PX;
+          .sex-img {
+            width: 40PX;
+            height: 40PX;
+          }
+          .text{
+            margin-top: 5PX;
+            font-size: 16PX;
+          }
+        }
+        .sex-select {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          border: 3PX solid #e08d3a;
+          border-radius: 10PX;
+          color: #e08d3a;
+          width: 100PX;
+          height: 100PX;
+          .sex-img {
+            width: 40PX;
+            height: 40PX;
+          }
+          .text{
+            margin-top: 5PX;
+            font-size: 16PX;
+          }
+        }
+      }
+      .input{
+        border: 1PX solid #ccc;
+        border-radius: 8PX;
+        margin: 10PX 0;
+        padding: 10PX;
+        text-align: left;
+        font-size: 14PX;
+        width: auto;
+      }
+      .age{
+      }
+      .wx{
+      }
+      .constellation{
+      }
+      .upload{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .img {
+          width: 100PX;
+          height: 100PX;
+        }
+        .upload-label{
+          font-size: 14PX;
+          color: #494949;
+          text-align: center;
+          .btn-upload{
+            color: dodgerblue;
+          }
+        }
+
+      }
+      .base-info{
+        margin-top: 10PX;
+        background-color: white;
+        border-radius: 8PX;
+        padding: 10PX 10PX 60PX 10PX;
       }
     }
-    .input{
-      border: 1PX solid #ccc;
-      border-radius: 8PX;
-      margin: 15PX 0;
-      padding: 10PX;
-      text-align: left;
+  }
+  .btn-group{
+    height: 60PX;
+    background-color: #cccccc;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .icon-btn {
+      margin-left: 10PX;
+      width: 80PX;
+      height: 60PX;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .img {
+        width: 40PX;
+        height: 40PX;
+      }
+      .text{
+        padding: 0;
+        font-size: 14PX;
+      }
     }
-    .age{
-    }
-    .wx{
-    }
-    .constellation{
-    }
-    .base-info{
-      background-color: white;
-      border-radius: 8PX;
-      padding: 20PX;
+    .submit {
+      margin-right: 10PX;
+      height: 50PX;
+      line-height: 50PX;
+      border-radius: 20PX;
+      background-color: orangered;
+      color: white;
+      width: 100%;
     }
   }
 }
